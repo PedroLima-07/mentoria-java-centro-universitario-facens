@@ -65,18 +65,19 @@ Nós usamos os atalhos:
 
 ---
 
-##⚖️ 3. Operadores Relacionais (As Comparações)
+## ⚖️ 3. Operadores Relacionais (As Comparações)
+
 Aqui as coisas ficam interessantes. Esses operadores comparam dois valores e a resposta SEMPRE será um valor Booleano (true ou false). É como se você estivesse fazendo uma pergunta ao Java.
 
 == : É igual a? (Atenção: são DOIS sinais de igual!)
 
 != : É diferente de?
 
-> : É maior que?
+" > : É maior que?
 
 < : É menor que?
 
-> = : É maior ou igual a?
+" >= : É maior ou igual a?
 
 <= : É menor ou igual a?
 
@@ -89,14 +90,16 @@ boolean maiorDeIdade = idade >= 18; // Pergunta: 18 é maior ou igual a 18? SIM 
 System.out.println("É maior de idade? " + maiorDeIdade); // Imprime true
 ```
 
-###🛑 DICA DE OURO DO MENTOR:
+### 🛑 DICA DE OURO DO MENTOR:
+
 Nunca confunda = com ==.
 idade = 18 significa "A variável idade AGORA VALE 18".
 idade == 18 significa "A variável idade É IGUAL A 18?".
 
 ---
 
-##🧠 4. Operadores Lógicos (Juntando Regras)
+## 🧠 4. Operadores Lógicos (Juntando Regras)
+
 Às vezes, uma comparação só não basta. Imagina que para entrar em uma festa você precisa ter ingresso E ser maior de idade. Os operadores lógicos juntam perguntas.
 
 && (E lógico): Tudo tem que ser verdade.
@@ -139,7 +142,8 @@ public class Loja {
 
 ---
 
-##🧪 Hora de Praticar!
+## 🧪 Hora de Praticar!
+
 Chegou a sua vez! Vá para a pasta exercicios e abra o arquivo exercicios.md.
 Lá você encontrará os desafios para testar se a lógica dos operadores.
 

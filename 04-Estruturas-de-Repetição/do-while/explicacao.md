@@ -1,12 +1,3 @@
-Para fechar o módulo de laços de repetição com chave de ouro, vamos para o Do-While.
-
-A grande sacada de ensinar o do-while é mostrar que ele é a estrutura oficial dos Menus Interativos. E para isso ficar legal de verdade, introduzi um "bônus" na explicação: o Scanner (para o aluno finalmente poder digitar no teclado e interagir com o código!).
-
-Aqui estão os 3 arquivos completinhos para a pasta 04-estruturas-de-repeticao/do-while/:
-
-1. Arquivo: explicacao.md (ou README.md principal)
-   Markdown
-
 # 🔄 Estrutura Do-While: Faça primeiro, pergunte depois!
 
 Nós vimos que o `while` é como um porteiro rigoroso: ele testa a condição **antes** de deixar o código rodar. Se a condição for falsa logo de cara, o código nunca será executado.

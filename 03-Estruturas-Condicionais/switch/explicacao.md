@@ -1,10 +1,3 @@
-Como havíamos conversado, aqui estão os 3 arquivos completinhos e focados 100% no Switch Case, seguindo exatamente aquela estrutura de ouro (Explicação, Exercícios e Resoluções).
-
-Se você preferir chamar todos eles de README.md (colocando cada um dentro de uma subpasta, por exemplo: explicacao/README.md, exercicios/README.md), o conteúdo abaixo vai encaixar perfeitamente!
-
-1. README de Explicação (explicacao.md ou README.md principal)
-   Markdown
-
 # 💡 Escolhas Diretas: A Estrutura Switch Case
 
 Você já sabe usar o `if` e `else` para tomar decisões. Ele é ótimo para checar "maior que", "menor que" ou juntar várias regras. Mas e quando você tem um **menu de opções exatas**?
