@@ -20,12 +20,15 @@ if (idade >= 18) {
     // Como 20 é maior que 18, a porta se abre e este código roda!
     System.out.println("Acesso liberado. Pode entrar!");
 }
-🛑 2. A alternativa: O else (Senão)
+```
+
+### 🛑 2. A alternativa: O else (Senão)
+
 Mas e se a pessoa tiver 15 anos? O if vai dar falso, e o programa simplesmente não vai fazer nada. Para dar uma resposta quando a condição falha, usamos o else.
 
 O else nunca tem uma condição do lado dele, porque ele significa "em qualquer outro caso que não seja o de cima".
 
-Java
+```java
 int idade = 15;
 
 if (idade >= 18) {
@@ -34,12 +37,15 @@ if (idade >= 18) {
     // Como 15 NÃO é maior/igual a 18, o if é ignorado e o else assume.
     System.out.println("Acesso negado. Volte para casa.");
 }
-🛤️ 3. Múltiplos Caminhos: O else if (Senão Se)
+```
+
+### 🛤️ 3. Múltiplos Caminhos: O else if (Senão Se)
+
 Às vezes, a vida não é só "preto no branco". Temos várias opções. Imagine classificar a idade de alguém em Criança, Adolescente ou Adulto.
 
 Para adicionar novos testes lógicos, usamos o else if:
 
-Java
+```java
 int idade = 14;
 
 if (idade < 12) {
@@ -52,13 +58,16 @@ if (idade < 12) {
     // Se não for criança nem adolescente, só pode ser adulto!
     System.out.println("Você é um Adulto.");
 }
+```
+
 💡 Dica do Mentor: Cuidado com as Chaves { }
 Tudo o que você quer que aconteça dentro de um if ou else DEVE estar "abraçado" pelas chaves. Se você esquecer delas, o Java pode executar comandos na hora errada e causar bugs bizarros!
 
-💻 Exemplo Completo
+### 💻 Exemplo Completo
+
 Copie e cole este código no seu VS Code, mude o valor da variável saldo e veja como o programa toma caminhos diferentes:
 
-Java
+```java
 public class CaixaEletronico {
     public static void main(String[] args) {
         double saldo = 100.0;
@@ -75,6 +84,8 @@ public class CaixaEletronico {
         }
     }
 }
+```
+
 Pronto para testar sua lógica? Vá para o arquivo exercicios.md!
 
 ---
@@ -82,4 +93,3 @@ Pronto para testar sua lógica? Vá para o arquivo exercicios.md!
 ### 💬 Precisa de ajuda com este módulo?
 
 Ficou confuso ou o código deu erro? Lembre-se de que a mentoria está aqui exatamente para isso! Consulte os nossos canais de contato disponíveis lá no **Canvas** e mande sua dúvida. Estou aqui para te ajudar a avançar! 💪
-```

@@ -29,13 +29,14 @@ public class Votacao {
         }
     }
 }
+```
 
-##🌡️ Resolução: Exercício 2 (Clima.java)
+## 🌡️ Resolução: Exercício 2 (Clima.java)
 
 Como resolvemos:
 Avaliamos os intervalos de temperatura.
 
-Java
+```java
 public class Clima {
     public static void main(String[] args) {
         double temperatura = 22.5;
@@ -53,13 +54,14 @@ public class Clima {
         }
     }
 }
+```
 
-##🚀 Resolução: Desafio (Emprestimo.java)
+## 🚀 Resolução: Desafio (Emprestimo.java)
 
 Como resolvemos:
 Para o empréstimo ser aprovado, o nome do cliente não pode estar sujo. Ou seja, nomeSujo precisa ser false. Usamos o operador de "NÃO" lógico (!) ou comparamos com false.
 
-Java
+```java
 public class Emprestimo {
     public static void main(String[] args) {
         double salario = 3000.00;
@@ -79,10 +81,10 @@ public class Emprestimo {
         }
     }
 }
+```
 
 ---
 
 ### 💬 Precisa de ajuda com este módulo?
 
 Ficou confuso ou o código deu erro? Lembre-se de que a mentoria está aqui exatamente para isso! Consulte os nossos canais de contato disponíveis lá no **Canvas** e mande sua dúvida. Estou aqui para te ajudar a avançar! 💪
-```

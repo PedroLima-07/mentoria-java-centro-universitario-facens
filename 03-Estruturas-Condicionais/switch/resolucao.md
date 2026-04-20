@@ -44,11 +44,14 @@ public class DiaDaSemana {
         }
     }
 }
-🎧 Resolução: Exercício 2 (Atendimento.java)
+```
+
+## 🎧 Resolução: Exercício 2 (Atendimento.java)
+
 Como resolvemos:
 Bem parecido com o primeiro, simulando a navegação de um menu de telefone real.
 
-Java
+```java
 public class Atendimento {
     public static void main(String[] args) {
         int opcaoEscolhida = 2;
@@ -74,11 +77,14 @@ public class Atendimento {
         }
     }
 }
-🚀 Resolução: Desafio (Calculadora.java)
+```
+
+## 🚀 Resolução: Desafio (Calculadora.java)
+
 Como resolvemos:
 Aqui está o poder do switch trabalhando com Strings! Note que o texto fica sempre entre aspas duplas " ".
 
-Java
+```java
 public class Calculadora {
     public static void main(String[] args) {
         double num1 = 20.0;
@@ -108,10 +114,10 @@ public class Calculadora {
         }
     }
 }
+```
 
 ---
 
 ### 💬 Precisa de ajuda com este módulo?
 
 Ficou confuso ou o código deu erro? Lembre-se de que a mentoria está aqui exatamente para isso! Consulte os nossos canais de contato disponíveis lá no **Canvas** e mande sua dúvida. Estou aqui para te ajudar a avançar! 💪
-```

@@ -30,12 +30,15 @@ do {
 
 } while (contador <= 5); // 2º: Só agora ele PERGUNTA se deve voltar pro começo.
 // ⚠️ Atenção: O do-while é a única estrutura que termina com PONTO E VÍRGULA (;) depois da condição!
-🎁 Bônus: Interagindo com o usuário (Scanner)
+```
+
+### 🎁 Bônus: Interagindo com o usuário (Scanner)
+
 O lugar onde o do-while mais brilha é na criação de Menus. E para um menu fazer sentido, o usuário precisa digitar a opção no teclado.
 
 Para ler o teclado no Java, usamos uma ferramenta chamada Scanner. Veja como é fácil:
 
-Java
+```java
 import java.util.Scanner; // 1. Importamos a ferramenta lá no topo do arquivo
 
 public class ExemploScanner {
@@ -52,10 +55,13 @@ public class ExemploScanner {
         System.out.println("Olá " + nome + ", você tem " + idade + " anos!");
     }
 }
-💻 Exemplo Prático: O Menu Interativo
+```
+
+## 💻 Exemplo Prático: O Menu Interativo
+
 Juntando o do-while com o Scanner, nós podemos criar um programa que fica rodando até o usuário decidir sair! Copie esse código no VS Code e brinque no terminal:
 
-Java
+```java
 import java.util.Scanner;
 
 public class Menu {
@@ -85,6 +91,8 @@ public class Menu {
         System.out.println("Encerrando o sistema. Até logo!");
     }
 }
+```
+
 Pronto para criar seus próprios sistemas interativos? Vá para o arquivo exercicios.md!
 
 ---
@@ -92,4 +100,3 @@ Pronto para criar seus próprios sistemas interativos? Vá para o arquivo exerci
 ### 💬 Precisa de ajuda com este módulo?
 
 Ficou confuso ou o código deu erro? Lembre-se de que a mentoria está aqui exatamente para isso! Consulte os nossos canais de contato disponíveis lá no **Canvas** e mande sua dúvida. Estou aqui para te ajudar a avançar! 💪
-```

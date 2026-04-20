@@ -36,16 +36,17 @@ System.out.println(a + b); // Imprime 13
 System.out.println(a - b); // Imprime 7
 System.out.println(a * b); // Imprime 30
 System.out.println(a / b); // Imprime 3 (Como são inteiros, ele ignora os decimais)
+```
+
 💡 Atenção ao Módulo (%)!
 Ele não é porcentagem! Ele pega o resto da divisão.
 Exemplo: Se você tem 10 fatias de pizza e divide para 3 pessoas, cada um come 3 fatias e sobra 1.
 Logo, 10 % 3 é igual a 1. É muito usado para descobrir se um número é par ou ímpar!
 
-
---------
-
+---
 
 ## 🔄 2. Operadores de Atribuição (Os Atalhos)
+
 Lembra que o sinal de igual = significa "recebe"? Ele pega o que está na direita e guarda na variável da esquerda.
 Mas na programação, muitas vezes queremos atualizar o valor de uma variável baseada nela mesma (ex: ganhar mais pontos num jogo).
 
@@ -58,13 +59,11 @@ Nós usamos os atalhos:
 
 -= : Subtrai e guarda
 
-*= : Multiplica e guarda
+\*= : Multiplica e guarda
 
 /= : Divide e guarda
 
-
-------
-
+---
 
 ##⚖️ 3. Operadores Relacionais (As Comparações)
 Aqui as coisas ficam interessantes. Esses operadores comparam dois valores e a resposta SEMPRE será um valor Booleano (true ou false). É como se você estivesse fazendo uma pergunta ao Java.
@@ -73,29 +72,29 @@ Aqui as coisas ficam interessantes. Esses operadores comparam dois valores e a r
 
 != : É diferente de?
 
->  : É maior que?
+> : É maior que?
 
-<  : É menor que?
+< : É menor que?
 
->= : É maior ou igual a?
+> = : É maior ou igual a?
 
 <= : É menor ou igual a?
 
 Exemplo prático:
 
-Java
+```java
 int idade = 18;
 boolean maiorDeIdade = idade >= 18; // Pergunta: 18 é maior ou igual a 18? SIM (true).
 
 System.out.println("É maior de idade? " + maiorDeIdade); // Imprime true
-🛑 DICA DE OURO DO MENTOR:
+```
+
+###🛑 DICA DE OURO DO MENTOR:
 Nunca confunda = com ==.
 idade = 18 significa "A variável idade AGORA VALE 18".
 idade == 18 significa "A variável idade É IGUAL A 18?".
 
-
----------
-
+---
 
 ##🧠 4. Operadores Lógicos (Juntando Regras)
 Às vezes, uma comparação só não basta. Imagina que para entrar em uma festa você precisa ter ingresso E ser maior de idade. Os operadores lógicos juntam perguntas.
@@ -108,7 +107,7 @@ idade == 18 significa "A variável idade É IGUAL A 18?".
 
 Exemplo prático:
 
-Java
+```java
 boolean temIngresso = true;
 int idade = 20;
 
@@ -136,18 +135,20 @@ public class Loja {
         System.out.println("Tem frete grátis? " + temFreteGratis);
     }
 }
+```
 
-------
-
+---
 
 ##🧪 Hora de Praticar!
 Chegou a sua vez! Vá para a pasta exercicios e abra o arquivo exercicios.md.
 Lá você encontrará os desafios para testar se a lógica dos operadores.
 
-
 ---
 
 ### 💬 Precisa de ajuda com este módulo?
+
 Ficou confuso ou o código deu erro? Lembre-se de que a mentoria está aqui exatamente para isso! Consulte os nossos canais de contato disponíveis lá no **Canvas** e mande sua dúvida. Estou aqui para te ajudar a avançar! 💪
+
+```
 
 ```

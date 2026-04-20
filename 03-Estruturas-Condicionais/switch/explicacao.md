@@ -35,14 +35,17 @@ switch (opcao) {
         System.out.println("Opção inválida!");
         break;
 }
-🚨 A Regra de Ouro: Nunca esqueça o break;!
+```
+
+### 🚨 A Regra de Ouro: Nunca esqueça o break;!
+
 A maior pegadinha do switch é o break.
 Se você não colocar o break no final de um case, o Java vai sofrer do "Efeito Cascata" (Fall-through). Ele vai ignorar os próximos testes e sair executando TUDO o que estiver pela frente até achar um break ou o switch acabar.
 
 🧵 Funciona com Textos (Strings) também!
 A partir do Java 7, o switch ficou mais inteligente e passou a aceitar textos, o que facilita muito a nossa vida.
 
-Java
+```java
 String plano = "PREMIUM";
 
 switch (plano) {
@@ -56,10 +59,12 @@ switch (plano) {
         System.out.println("Plano não reconhecido.");
         break;
 }
+```
+
 💻 Exemplo Completo: Máquina de Café
 Copie o código abaixo no seu VS Code, troque o número da variável botaoApertado e veja o que a máquina de café vai te servir!
 
-Java
+```java
 public class MaquinaDeCafe {
     public static void main(String[] args) {
         int botaoApertado = 1;
@@ -82,6 +87,8 @@ public class MaquinaDeCafe {
         }
     }
 }
+```
+
 Pronto para testar? Vá para a pasta de exercícios!
 
 ---
@@ -89,4 +96,3 @@ Pronto para testar? Vá para a pasta de exercícios!
 ### 💬 Precisa de ajuda com este módulo?
 
 Ficou confuso ou o código deu erro? Lembre-se de que a mentoria está aqui exatamente para isso! Consulte os nossos canais de contato disponíveis lá no **Canvas** e mande sua dúvida. Estou aqui para te ajudar a avançar! 💪
-```

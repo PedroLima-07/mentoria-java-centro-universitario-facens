@@ -38,6 +38,7 @@ Java
 int idade = 20;
 String nome = "Pedro";
 double altura = 1.75;
+```
 
 🔢 Tipos de dados mais usados no dia a dia
 Existem vários tipos de caixas, mas no início vamos focar nos "Quatro Fantásticos":
@@ -45,36 +46,45 @@ Existem vários tipos de caixas, mas no início vamos focar nos "Quatro Fantást
 🔹 Números inteiros (int)
 Serve para idades, quantidades, anos.
 
+```java
 int idade = 20;
+```
 
 🔹 Números com casas decimais (double)
 Serve para dinheiro, altura, peso. (Atenção: em Java usamos ponto ., não vírgula ,)
 
+```java
 double altura = 1.75;
+```
 
 🔹 Texto (String)
 Serve para nomes, frases, senhas. O texto deve estar sempre entre aspas duplas "".
 (Dica de Ouro: Note que String começa com a letra 'S' MAIÚSCULA, enquanto os outros são minúsculos!)
 
+```java
 String nome = "Pedro";
+```
 
 🔹 Booleano (boolean)
 Só aceita dois valores: true (verdadeiro) ou false (falso).
 
+```java
 boolean estudante = true;
+```
 
 🔄 Variáveis podem... variar!
 O legal das variáveis é que você pode trocar o que tem dentro da caixa a qualquer momento no seu código:
 
-Java
+```java
 int pontuacao = 10;
 
 // ops, ganhei mais pontos!
 pontuacao = 15;
 
 // Agora a caixa 'pontuacao' não vale mais 10, vale 15.
+```
 
------
+---
 
 📏 Regras e Boas Práticas para Nomes
 Para dar nome às suas caixas, existem regras:
@@ -87,21 +97,23 @@ Para dar nome às suas caixas, existem regras:
 
 ✅ Use o padrão camelCase: Quando juntar duas palavras, a primeira começa minúscula e a segunda maiúscula. Ex: valorDaCompra, nomeDoAluno.
 
-------
+---
 
 🧩 O "Pulo do Gato": Juntando Texto e Variável (Concatenação)
 E se você quiser que o comando System.out.println imprima uma frase bonitinha usando suas variáveis? Usamos o símbolo de soma + para "colar" as coisas!
 
-Java
+```java
 String nome = "Pedro";
 int idade = 20;
 
 // O símbolo + serve como uma "cola" juntando o texto com o valor da variável
-System.out.println("Olá, meu nome é " + nome + " e eu tenho " + idade + " anos.");
-💻 Exemplo completo
+System.out.println("Olá, meu nome é " + nome + " e eu tenho " + idade + " anos");
+```
+
+##💻 Exemplo completo
 Se você copiar e colar este código no seu VS Code, vai ver a mágica acontecer:
 
-Java
+```java
 public class Variaveis {
     public static void main(String[] args) {
         String nome = "Maria";
@@ -115,10 +127,11 @@ public class Variaveis {
         System.out.println("Altura: " + altura + "m");
     }
 }
+```
 
-------
+---
 
-🧪 Hora de Praticar!
+##🧪 Hora de Praticar!
 Chegou a sua vez de colocar a mão na massa. Crie um arquivo chamado MeusDados.java e resolva os exercícios abaixo.
 
 Exercício 1
@@ -140,4 +153,3 @@ Usando o que você aprendeu sobre concatenação (juntar textos e variáveis com
 "Meu nome é X, tenho Y anos e minha altura é Z."
 
 (💡 Se travar, não tem problema! Dá uma espiada na pasta resolucoes/ para ver como o código foi construído).
-```

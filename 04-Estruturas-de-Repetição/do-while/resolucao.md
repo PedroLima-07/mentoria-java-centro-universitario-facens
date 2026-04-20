@@ -34,11 +34,14 @@ public class Senha {
         System.out.println("✅ Acesso Permitido!");
     }
 }
-🎲 Resolução: Exercício 2 (Adivinhacao.java)
+```
+
+## 🎲 Resolução: Exercício 2 (Adivinhacao.java)
+
 Como resolvemos:
 Usamos lógicas de if e else if dentro do laço para ir guiando o usuário até ele acertar.
 
-Java
+```java
 import java.util.Scanner;
 
 public class Adivinhacao {
@@ -66,11 +69,14 @@ public class Adivinhacao {
         System.out.println("🎉 Parabéns! Você acertou na mosca!");
     }
 }
-🍕 Resolução: Desafio (Lanchonete.java)
+```
+
+## 🍕 Resolução: Desafio (Lanchonete.java)
+
 Como resolvemos:
 Combinamos o do-while com o switch case (poderia ser um if/else também) para montar um sistema de caixa registradora clássico.
 
-Java
+```java
 import java.util.Scanner;
 
 public class Lanchonete {
@@ -115,10 +121,10 @@ public class Lanchonete {
         System.out.println("Bom apetite!");
     }
 }
+```
 
 ---
 
 ### 💬 Precisa de ajuda com este módulo?
 
 Ficou confuso ou o código deu erro? Lembre-se de que a mentoria está aqui exatamente para isso! Consulte os nossos canais de contato disponíveis lá no **Canvas** e mande sua dúvida. Estou aqui para te ajudar a avançar! 💪
-```

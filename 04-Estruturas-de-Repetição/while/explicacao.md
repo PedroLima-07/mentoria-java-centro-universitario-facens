@@ -23,6 +23,8 @@ while (vida > 0) {
     // senão o jogo nunca acaba!
     vida--;
 }
+```
+
 ## 🚨 O Perigo Oculto: O Loop Infinito!
 
 O maior erro de todo programador iniciante (e até dos experientes rs) é criar um loop infinito.
@@ -30,19 +32,20 @@ Se você esquecer de atualizar a variável que está sendo testada na condição
 
 Exemplo de um desastre:
 
-Java
+```java
 int bateria = 100;
 
 while (bateria > 0) {
     System.out.println("Celular ligado!");
     // Esqueceu de colocar bateria-- aqui! O celular terá 100% de bateria para sempre.
 }
+```
 
-##💻 Exemplo Prático: Comendo uma Pizza
+## 💻 Exemplo Prático: Comendo uma Pizza
 
 Vamos simular alguém comendo uma pizza inteira. Não sabemos quantas mordidas vai levar, só sabemos que a pessoa vai continuar comendo enquanto houver fatias!
 
-Java
+```java
 public class ComendoPizza {
     public static void main(String[] args) {
 
@@ -60,6 +63,7 @@ public class ComendoPizza {
         System.out.println("Acabou a pizza! Estou cheio.");
     }
 }
+```
 
 Pronto para testar se você entendeu a lógica do "Enquanto"? Vá para o arquivo exercicios.md!
 
@@ -68,4 +72,3 @@ Pronto para testar se você entendeu a lógica do "Enquanto"? Vá para o arquivo
 ### 💬 Precisa de ajuda com este módulo?
 
 Ficou confuso ou o código deu erro? Lembre-se de que a mentoria está aqui exatamente para isso! Consulte os nossos canais de contato disponíveis lá no **Canvas** e mande sua dúvida. Estou aqui para te ajudar a avançar! 💪
-```

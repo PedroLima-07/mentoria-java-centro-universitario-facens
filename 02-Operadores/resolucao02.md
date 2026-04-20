@@ -42,12 +42,15 @@ public class Padaria {
         System.out.println("Troco a devolver: R$ " + troco);
     }
 }
-🎓 Resolução: Exercício 2 (Escola.java)
+```
+
+## 🎓 Resolução: Exercício 2 (Escola.java)
+
 O objetivo: Usar operadores relacionais e lógicos para descobrir se o aluno passou, lembrando que ele precisa de nota e de presença.
 
 Como resolvemos:
 
-Java
+```java
 public class Escola {
     public static void main(String[] args) {
 
@@ -74,12 +77,15 @@ public class Escola {
         System.out.println("Aluno aprovado? " + aprovado);
     }
 }
-🚀 Resolução: Desafio (Balada.java)
+```
+
+## 🚀 Resolução: Desafio (Balada.java)
+
 O objetivo: Usar o operador de resto (%) para saber se um número é par e combinar isso com um ingresso VIP.
 
 Como resolvemos:
 
-Java
+```java
 public class Balada {
     public static void main(String[] args) {
 
@@ -103,10 +109,10 @@ public class Balada {
         System.out.println("Acesso Liberado? " + podeEntrar);
     }
 }
+```
 
 ---
 
 ### 💬 Precisa de ajuda com este módulo?
 
 Ficou confuso ou o código deu erro? Lembre-se de que a mentoria está aqui exatamente para isso! Consulte os nossos canais de contato disponíveis lá no **Canvas** e mande sua dúvida. Estou aqui para te ajudar a avançar! 💪
-```

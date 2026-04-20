@@ -16,6 +16,8 @@ O `for` pode parecer meio feio na primeira vez que você bate o olho, mas ele é
 for (1. Início ; 2. Condição de parada ; 3. Passo) {
     // Código que vai repetir
 }
+```
+
 Traduzindo para o Java:
 
 Início (Inicialização): Onde a contagem começa? (Ex: int i = 1)
@@ -24,10 +26,11 @@ Condição: Até quando ele deve repetir? (Ex: i <= 5)
 
 Passo (Incremento): Ele conta de 1 em 1? De 2 em 2? (Ex: i++, que é o atalho para i = i + 1)
 
-💻 Exemplo Prático: Contando até 5
+### 💻 Exemplo Prático: Contando até 5
+
 Veja como é simples pedir para o Java contar de 1 até 5:
 
-Java
+```java
 public class Contador {
     public static void main(String[] args) {
 
@@ -41,22 +44,25 @@ public class Contador {
         System.out.println("Fim da contagem!");
     }
 }
+```
+
 💡 Por que sempre usamos a letra i?
 É uma tradição antiga na programação! O i vem de Índice ou Iterador (aquele que repete). Mas você pode usar qualquer nome, como int contador = 1;.
 
-📉 Contagem Regressiva (De trás pra frente)
+### 📉 Contagem Regressiva (De trás pra frente)
+
 O for também sabe contar para trás! Basta começar com um número maior, mudar a condição para "maior que", e usar o decremento i-- (que tira 1 a cada volta).
 
-Java
+```java
 for (int i = 10; i > 0; i--) {
     System.out.println("Faltam " + i + " segundos!");
 }
-Pronto para testar a sua lógica de repetição? Vá para o arquivo exercicios.md!
+```
 
+Pronto para testar a sua lógica de repetição? Vá para o arquivo exercicios.md!
 
 ---
 
 ### 💬 Precisa de ajuda com este módulo?
 
 Ficou confuso ou o código deu erro? Lembre-se de que a mentoria está aqui exatamente para isso! Consulte os nossos canais de contato disponíveis lá no **Canvas** e mande sua dúvida. Estou aqui para te ajudar a avançar! 💪
-```

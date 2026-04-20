@@ -28,11 +28,14 @@ public class BombaRelogio {
         System.out.println("Bomba desarmada com sucesso! ✂️🔴");
     }
 }
-💰 Resolução: Exercício 2 (Poupanca.java)
+```
+
+## 💰 Resolução: Exercício 2 (Poupanca.java)
+
 Como resolvemos:
 Aqui o while brilha! Nós não sabíamos quantos meses iam demorar, deixamos o Java calcular isso pra gente aumentando a variável meses a cada vez que o dinheiro caía na conta.
 
-Java
+```java
 public class Poupanca {
     public static void main(String[] args) {
         double saldo = 0;
@@ -53,11 +56,14 @@ public class Poupanca {
         System.out.println("Saldo final: R$ " + saldo);
     }
 }
-🐉 Resolução: Desafio (BatalhaRPG.java)
+```
+
+## 🐉 Resolução: Desafio (BatalhaRPG.java)
+
 Como resolvemos:
 O combate roda até o Dragão morrer (HP chegar a 0 ou menos).
 
-Java
+```java
 public class BatalhaRPG {
     public static void main(String[] args) {
         int hpDragao = 500;
@@ -85,10 +91,10 @@ public class BatalhaRPG {
         System.out.println("O dragão foi derrotado em " + ataquesRealizados + " ataques.");
     }
 }
+```
 
 ---
 
 ### 💬 Precisa de ajuda com este módulo?
 
 Ficou confuso ou o código deu erro? Lembre-se de que a mentoria está aqui exatamente para isso! Consulte os nossos canais de contato disponíveis lá no **Canvas** e mande sua dúvida. Estou aqui para te ajudar a avançar! 💪
-```

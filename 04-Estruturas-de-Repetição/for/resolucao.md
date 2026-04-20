@@ -26,11 +26,14 @@ public class Foguete {
         System.out.println("Fogo! 🚀");
     }
 }
-✖️ Resolução: Exercício 2 (Tabuada.java)
+```
+
+## ✖️ Resolução: Exercício 2 (Tabuada.java)
+
 Como resolvemos:
 O laço for vai gerar os números de 1 a 10 (que são os multiplicadores). O nosso número principal (7) fica fixo, e nós apenas multiplicamos um pelo outro.
 
-Java
+```java
 public class Tabuada {
     public static void main(String[] args) {
 
@@ -45,11 +48,14 @@ public class Tabuada {
         }
     }
 }
-🐷 Resolução: Desafio (Cofrinho.java)
+```
+
+## 🐷 Resolução: Desafio (Cofrinho.java)
+
 Como resolvemos:
 Aqui entra o conceito de Variável Acumuladora. A variável totalGuardado precisa ser criada fora do for. Se você criar ela dentro do for, o Java vai zerar o cofrinho a cada repetição!
 
-Java
+```java
 public class Cofrinho {
     public static void main(String[] args) {
 
@@ -73,10 +79,10 @@ public class Cofrinho {
         System.out.println("Total no cofrinho: R$ " + totalGuardado);
     }
 }
+```
 
 ---
 
 ### 💬 Precisa de ajuda com este módulo?
 
 Ficou confuso ou o código deu erro? Lembre-se de que a mentoria está aqui exatamente para isso! Consulte os nossos canais de contato disponíveis lá no **Canvas** e mande sua dúvida. Estou aqui para te ajudar a avançar! 💪
-```
