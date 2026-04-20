@@ -41,7 +41,8 @@ public class MeusDados {
 }
 ```
 
-##🚀 Resolução: Desafio Final
+## 🚀 Resolução: Desafio Final
+
 O objetivo: Usar a concatenação (o sinal de +) para montar a frase: "Meu nome é X, tenho Y anos e minha altura é Z."
 
 Como resolvemos:
@@ -71,7 +72,3 @@ Se você fizer isso: "Meu nome é" + nome
 O resultado será: Meu nome éAna (Tudo junto!).
 
 Sempre confira se você deixou um espaço vazio dentro das aspas para dar um respiro entre as palavras!
-
-```
-
-```
