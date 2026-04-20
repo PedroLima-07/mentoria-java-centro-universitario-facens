@@ -48,7 +48,7 @@ O JDK é essencial. Sem ele, o Java não roda.
 2. Digite: `cmd`
 3. No terminal, digite:
 
-```bash
+bash
 java -version
 
 ✔ Se aparecer algo como:
@@ -57,10 +57,7 @@ java version "17..."
 
 Tudo certo! 🎉
 
-
------------
-
-
+---
 
 # 🧑‍💻 Instalando o VS Code (Seu Editor de Código)
 
@@ -75,13 +72,12 @@ Pense nele como o seu “caderno inteligente” de programação. 📓✨
 ## ✅ Passo 1: Baixar o VS Code
 
 1. Acesse o site oficial:
-👉 https://code.visualstudio.com/
+   👉 https://code.visualstudio.com/
 
 2. Clique no botão azul:
-**Download for Windows**
+   **Download for Windows**
 
 ---
-
 
 ## ✅ Passo 2: Instalar o VS Code
 
@@ -146,10 +142,7 @@ Você pode:
 
 O importante é continuar. 🚀
 
-
------
-
-
+---
 
 # 🧩 Instalando o Suporte ao Java no VS Code
 
@@ -165,11 +158,10 @@ Vamos resolver isso instalando um pacote de extensões que transforma o VS Code 
 
 Um pacote chamado:
 
-
 Extension Pack for Java
 
-
 💡 Ele já vem com tudo que você precisa:
+
 - Compilador
 - Debug (depuração)
 - Autocomplete (auto completar código)
@@ -187,7 +179,6 @@ Extension Pack for Java
 ## ✅ Passo 2: Buscar a extensão
 
 1. Na barra de pesquisa, digite:
-
 
 Extension Pack for Java
 
@@ -249,4 +240,3 @@ Se algo não funcionar como esperado:
 - 📩 Fale com o seu mentor
 
 Errar faz parte — o importante é continuar. 🚀
-```
