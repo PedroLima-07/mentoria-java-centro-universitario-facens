@@ -12,6 +12,7 @@ Ajudar alunos a desenvolverem lógica de programação utilizando Java, passando
 - Operadores
 - Condicionais
 - Estruturas de repetição
+- Arrays (Vetores)
 
 ---
 
@@ -23,6 +24,7 @@ O conteúdo está organizado por etapas de aprendizado:
 02-operadores/
 03-condicionais/
 04-repeticao/
+05-arrays/
 
 Cada módulo contém:
 
@@ -39,6 +41,7 @@ Cada módulo contém:
 2. Operadores
 3. Condicionais (`if` e `switch`)
 4. Repetição (`for`, `while`, `do-while`)
+5. Arrays (Vetores)
 
 ---
 
@@ -58,6 +61,14 @@ Utilizadas para repetir ações:
 - `for` → quando sabemos o número de repetições
 - `while` → quando depende de uma condição
 - `do-while` → executa pelo menos uma vez
+
+---
+
+## 📦 Arrays (Vetores)
+
+Utilizados para armazenar e organizar múltiplos dados:
+
+- `Arrays` → Estruturas com tamanho fixo que guardam uma coleção de elementos do mesmo tipo, facilitando o acesso indexado a partir do zero.
 
 ---
 
